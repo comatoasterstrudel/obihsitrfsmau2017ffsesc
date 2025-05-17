@@ -69,6 +69,8 @@ class PlayState extends FlxState
 			case 14:
 				FlxG.camera.shake();
 				FlxG.sound.play('assets/sounds/hell.mp3', .3);
+			case 15:
+				FlxG.sound.playMusic('assets/music/new friendly.mp3', .3);
 			case 16:
 				FlxG.sound.playMusic('assets/music/yay.mp3', .3);
 		}
